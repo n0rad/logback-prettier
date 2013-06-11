@@ -2,8 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.awired.logback.prettier</groupId>
 	<artifactId>logback-prettier</artifactId>
 	<packaging>jar</packaging>
+	<version>0.1-SNAPSHOT</version>
 
 	<parent>
 		<groupId>net.awired.parent</groupId>
