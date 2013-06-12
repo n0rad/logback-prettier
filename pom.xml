@@ -4,8 +4,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.awired.logback.prettier</groupId>
 	<artifactId>logback-prettier</artifactId>
-	<name>Logback Prettier</name>
-	<description>Allow split of log level on sysout/syserr and support more advanced color by level</description>
 	<packaging>jar</packaging>
 	<version>0.1-SNAPSHOT</version>
 
@@ -15,25 +13,13 @@
 		<version>1.16</version>
 	</parent>
 
-	<scm>
-		<connection>scm:git:git://github.com/awired/logback-prettier.git</connection>
-		<developerConnection>scm:git:git@github.com:awired/logback-prettier.git</developerConnection>
-		<url>https://github.com/awired/logback-prettier</url>
-	</scm>
-
-
-	<dependencies>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>1.0.13</version>
-		</dependency>
-		<dependency>
-			<groupId>org.fusesource.jansi</groupId>
-			<artifactId>jansi</artifactId>
-			<version>1.11</version>
-		</dependency>
-	</dependencies>
-
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.0.13</version>
+        </dependency>
+    </dependencies>
+	
 </project> 
 
