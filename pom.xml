@@ -5,7 +5,7 @@
 	<groupId>net.awired.logback.prettier</groupId>
 	<artifactId>logback-prettier</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1</version>
+	<version>0.1-SNAPSHOT</version>
 
 	<parent>
 		<groupId>net.awired.parent</groupId>
@@ -13,21 +13,13 @@
 		<version>1.16</version>
 	</parent>
 
-	<dependencies>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>1.0.13</version>
-		</dependency>
-	</dependencies>
-
-
-	<scm>
-		<connection>scm:git:git://github.com/awired/logback-prettier.git</connection>
-		<developerConnection>scm:git:git@github.com:awired/logback-prettier.git</developerConnection>
-		<url>https://github.com/awired/logback-prettier</url>
-		<tag>logback-prettier-0.1</tag>
-	</scm>
-
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.0.13</version>
+        </dependency>
+    </dependencies>
+	
 </project> 
 
