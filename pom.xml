@@ -23,9 +23,9 @@
 
 
 	<scm>
-		<connection>scm:git:git://github.com/awired/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:awired/${project.artifactId}.git</developerConnection>
-		<url>https://github.com/awired/${project.artifactId}</url>
+		<connection>scm:git:git://github.com/awired/logback-prettier.git</connection>
+		<developerConnection>scm:git:git@github.com:awired/logback-prettier.git</developerConnection>
+		<url>https://github.com/awired/logback-prettier</url>
 		<tag>logback-prettier-0.1</tag>
 	</scm>
 
