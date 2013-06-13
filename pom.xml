@@ -6,7 +6,7 @@
 	<name>Logback Prettier</name>
 	<description>Allow split of log level on sysout/syserr and support more advanced color by level</description>
 	<packaging>jar</packaging>
-	<version>0.3-SNAPSHOT</version>
+	<version>0.5-SNAPSHOT</version>
 
 	<parent>
 		<groupId>net.awired.parent</groupId>
