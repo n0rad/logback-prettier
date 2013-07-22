@@ -1,4 +1,3 @@
-
 Pretty logback output for sysout/syserr with custum color (and bold) text by level
 
 Sample :
@@ -35,3 +34,4 @@ Sample :
 
 Will result in : 
 
+.. image:: https://raw.github.com/n0rad/logback-prettier/master/screenshot.png
