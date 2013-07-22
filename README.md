@@ -1,6 +1,14 @@
 Pretty logback output for sysout/syserr with custum color (and bold) text by level
 
-Sample :
+Maven dependency :
+
+    <dependency>
+      <groupId>fr.norad.logback.prettier</groupId>
+      <artifactId>logback-prettier</artifactId>
+      <version>0.5</version>
+    </dependency>
+
+Sample logback.xml :
 
 <configuration scan="true" scanPeriod="30 seconds">
     <conversionRule conversionWord="colorlevel"
