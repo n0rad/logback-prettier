@@ -6,7 +6,7 @@
 	<name>Logback Prettier</name>
 	<description>Allow split of log level on sysout/syserr and support more advanced color by level</description>
 	<packaging>jar</packaging>
-	<version>0.5</version>
+	<version>0.6-SNAPSHOT</version>
 
 	<parent>
 		<groupId>fr.norad.parent</groupId>
@@ -18,7 +18,7 @@
 		<connection>scm:git:git://github.com/n0rad/logback-prettier.git</connection>
 		<developerConnection>scm:git:git@github.com:n0rad/logback-prettier.git</developerConnection>
 		<url>https://github.com/n0rad/logback-prettier</url>
-		<tag>logback-prettier-0.5</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
