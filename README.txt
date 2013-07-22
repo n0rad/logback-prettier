@@ -5,9 +5,9 @@ Sample :
 
 <configuration scan="true" scanPeriod="30 seconds">
     <conversionRule conversionWord="colorlevel"
-        converterClass="net.awired.logback.prettier.ColorLevelCompositeConverter" />
+        converterClass="fr.norad.logback.prettier.ColorLevelCompositeConverter" />
     <conversionRule conversionWord="bold"
-        converterClass="net.awired.logback.prettier.BoldCompositeConverter" />
+        converterClass="fr.norad.logback.prettier.BoldCompositeConverter" />
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <target>System.out</target>
@@ -15,7 +15,7 @@ Sample :
         <encoder>
             <pattern><![CDATA[%blue(%d{HH:mm:ss.SSS}) [%-10.10thread] %colorlevel(%-5level) %-45.45(%41C{41}:%L) - %msg%n]]></pattern>
         </encoder>
-        <filter class="net.awired.logback.prettier.OutFilter" />
+        <filter class="fr.norad.logback.prettier.OutFilter" />
     </appender>
     <appender name="STDERR" class="ch.qos.logback.core.ConsoleAppender">
         <target>System.err</target>
@@ -23,7 +23,7 @@ Sample :
         <encoder>
             <pattern><![CDATA[%boldBlue(%d{HH:mm:ss.SSS}) %bold([%-10.10thread]) %colorlevel(%-5level) %bold(%-45.45(%41C{41}:%L)) - %colorlevel(%msg) %n]]></pattern>
         </encoder>
-        <filter class="net.awired.logback.prettier.ErrFilter" />
+        <filter class="fr.norad.logback.prettier.ErrFilter" />
     </appender>
 
     <root>
@@ -32,4 +32,6 @@ Sample :
         <appender-ref ref="STDERR" />
     </root>
 </configuration>
+
+Will result in : 
 
