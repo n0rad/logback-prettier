@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.norad.logback.prettier</groupId>
@@ -7,7 +6,7 @@
 	<name>Logback Prettier</name>
 	<description>Allow split of log level on sysout/syserr and support more advanced color by level</description>
 	<packaging>jar</packaging>
-	<version>0.5-SNAPSHOT</version>
+	<version>0.5</version>
 
 	<parent>
 		<groupId>fr.norad.parent</groupId>
@@ -19,7 +18,7 @@
 		<connection>scm:git:git://github.com/n0rad/logback-prettier.git</connection>
 		<developerConnection>scm:git:git@github.com:n0rad/logback-prettier.git</developerConnection>
 		<url>https://github.com/n0rad/logback-prettier</url>
-		<tag>HEAD</tag>
+		<tag>logback-prettier-0.5</tag>
 	</scm>
 
 	<dependencies>
