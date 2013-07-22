@@ -34,4 +34,4 @@ Sample :
 
 Will result in : 
 
-.. image:: https://raw.github.com/n0rad/logback-prettier/master/screenshot.png
+!(https://raw.github.com/n0rad/logback-prettier/master/screenshot.png)
