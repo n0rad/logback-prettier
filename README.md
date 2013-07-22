@@ -34,4 +34,4 @@ Sample :
 
 Will result in : 
 
-!(https://raw.github.com/n0rad/logback-prettier/master/screenshot.png)
+![alt screenshot](https://raw.github.com/n0rad/logback-prettier/master/screenshot.png)
